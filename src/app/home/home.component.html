@@ -1,0 +1,26 @@
+<div class="example-container">
+  <app-header></app-header>
+  <br><br><br>
+  <div class="row">
+    <div class="col s12">
+      <div class="card-image" style="height: 500px;width: 100%;background-size:cover;background-image:url(assets/images/immo.jpg)">
+
+      </div>
+      <br><br><br>
+       <div style="margin-left:100px">
+          <app-recherche></app-recherche>
+
+       </div>
+           <br><br><br>
+       <div style="margin-left:100px">
+         <span class="col s4" *ngFor="let bien of Biens | paginate: { itemsPerPage: 3, currentPage: p }">
+             <app-catalogue [bien]="bien"></app-catalogue>
+             <br><br>
+         </span>
+             <pagination-controls (pageChange)="p = $event"></pagination-controls>
+       </div>
+
+       </div>
+     </div>
+  <app-footer></app-footer>
+</div>

@@ -1,0 +1,18 @@
+<form #regFor="ngForm" method="post" (ngSubmit)="Register(regFor.value,'form2')" >
+  <div class="form-group">
+    <label class="center-block">EMAIL:</label>
+      <input type="email" class="form-control" name="emailclient" ngModel>
+
+  </div>
+  <div class="form-group">
+    <label class="center-block">PASSWORD:</label>
+      <input type="password" class="form-control" name="password" ngModel>
+
+  </div>
+
+  <div class="form-group">
+      <input type="submit" class="btn btn-primary" value="Save" name="submit">
+
+  </div>
+
+ </form>

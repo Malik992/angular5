@@ -1,0 +1,54 @@
+[{
+        "nom": "Sebago",
+        "etat": true,
+        "prix": 22000,
+        "image": "assets/images/2.jpg",
+        "detail": "Qlt cuir,couleur marron ,taille 43"
+    },
+    {
+        "nom": "Sebago",
+        "etat": true,
+        "prix": 21000,
+        "image": "assets/images/3.jpg",
+        "detail": "Qlt cuir,couleur beige blue ,taille 44"
+
+    },
+    {
+        "nom": "Macossin",
+        "etat": true,
+        "prix": 27000,
+        "image": "assets/images/mac.jpg",
+        "detail": "Qlt cuir,couleur noir ,taille 43"
+
+    },
+    {
+        "nom": "Sebago",
+        "etat": true,
+        "prix": 28000,
+        "image": "assets/images/5.jpg",
+        "detail": " Qlt cuir,couleur rouge bordeau ,taille 44"
+
+    },
+    {
+        "nom": "Sandale",
+        "etat": true,
+        "prix": 20000,
+        "image": "assets/images/sand.jpeg",
+        "detail": "Qlt cuir,couleur maron ,taille 42"
+
+    },
+    {
+        "nom": "Calvin klein",
+        "etat": true,
+        "prix": 26500,
+        "image": "assets/images/cal.jpeg",
+        "detail": "Qlt cuir,couleur noir ,taille 39"
+
+    }
+
+
+
+
+
+
+]

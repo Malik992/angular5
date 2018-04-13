@@ -1,0 +1,16 @@
+.example-card {
+    max-width: 400px;
+    width:300px;
+
+
+  }
+
+  .example-header-image {
+    background-image: url('data:image/jpg;base64,{{bien.images[0].image}}');
+    background-size: cover;
+    display: block;
+  }
+.detail{
+  background-color:gray;
+  color:white;
+}

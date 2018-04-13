@@ -1,0 +1,31 @@
+<form  method="post" #regForm="ngForm" (ngSubmit)="onSubmit(regForm.value,'form1')">
+
+  <div class="form-group">
+    <label class="center-block">Numero piece:</label>
+      <input type="number" class="form-control" name="numeropiece" ngModel>
+  </div>
+  <div class="form-group">
+    <label class="center-block">Nom complet:</label>
+      <input type="text" class="form-control" name="nomclient" ngModel>
+  </div>
+  <div class="form-group">
+    <label class="center-block">Telephone:</label>
+      <input type="number" class="form-control" name="telclient" ngModel>
+  </div>
+  <div class="form-group">
+    <label class="center-block">Adresse:</label>
+      <input type="text" class="form-control" name="adresseclient" ngModel>
+  </div>
+  <div class="form-group">
+    <label class="center-block">Password:</label>
+      <input type="password" class="form-control" name="password" ngModel>
+  </div>
+  <div class="form-group">
+    <label class="center-block">Email:</label>
+      <input type="email" class="form-control" name="emailclient" ngModel>
+  </div>
+  <div class="form-group">
+    <input type="submit" class="btn btn-primary" value="Save">
+
+      </div>
+  </form>

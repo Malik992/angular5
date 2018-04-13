@@ -1,0 +1,18 @@
+<div class="example-container">
+<mat-card class="example-card">
+    <mat-card-content>
+      <img mat-card-image style="width:400" class="img-responsive hoverable" src="data:image/png;base64,{{bien.images[0].image}}">
+     </mat-card-content>
+<mat-card>
+    {{bien.typebien.libelletype}},
+  {{ bien.prix_loc }}
+
+</mat-card>
+<mat-card-actions>
+      <a routerLink="/detail/{{bien.id}}" routerLinkActive="active">
+        <button type="buttton" class="btn btn-primary"> Details</button>
+      </a>
+</mat-card-actions>
+
+</mat-card>
+</div>
